@@ -1,2 +1,5 @@
 # i18next-sprintf-postProcessor
-sprintf post processor for i18next
+
+
+`gulp build` builds release version
+`gulp build --debug` will build unminified version
