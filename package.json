@@ -1,6 +1,6 @@
 {
   "name": "i18next-sprintf-postprocessor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "backend layer for i18next using browsers xhr",
   "main": "./bin/index.js",
   "keywords": [
@@ -10,7 +10,9 @@
   ],
   "homepage": "https://github.com/i18next/i18next-sprintf-postProcessor",
   "bugs": "https://github.com/i18next/i18next-sprintf-postProcessor",
-  "dependencies": {},
+  "dependencies": {
+    "sprintf-js": "1.0.3"
+  },
   "devDependencies": {
     "babel": "5.8.21",
     "babel-eslint": "4.1.0",
