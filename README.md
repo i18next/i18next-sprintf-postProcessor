@@ -11,7 +11,7 @@ Source can be loaded via [npm](https://www.npmjs.com/package/i18next-sprintf-pos
 $ npm install i18next-sprintf-postprocessor
 
 # bower
-$ bower install i18next/i18next-sprintf-postProcessor
+$ bower install i18next-sprintf-postprocessor
 ```
 
 Wiring up:
