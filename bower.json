@@ -1,5 +1,5 @@
 {
-  "name": "i18nextSprintfPostProcessor",
+  "name": "i18next-sprintf-postprocessor",
   "version": "0.0.5",
   "main": "./bin/index.js",
   "dependencies": {},
