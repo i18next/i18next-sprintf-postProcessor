@@ -4,11 +4,11 @@ This is a i18next postProcessor enabling sprintf usage for translations.
 
 # Getting started
 
-Source can be loaded via [npm](https://www.npmjs.com/package/i18next-sprintf-postProcessor), bower or [downloaded](https://github.com/i18next/i18next-sprintf-postProcessor/blob/master/i18nextSprintfPostProcessor.min.js) from this repo.
+Source can be loaded via [npm](https://www.npmjs.com/package/i18next-sprintf-postprocessor), bower or [downloaded](https://github.com/i18next/i18next-sprintf-postprocessor/blob/master/i18nextSprintfPostProcessor.min.js) from this repo.
 
 ```
 # npm package
-$ npm install i18next-sprintf-postProcessor
+$ npm install i18next-sprintf-postprocessor
 
 # bower
 $ bower install i18next/i18next-sprintf-postProcessor
@@ -18,7 +18,7 @@ Wiring up:
 
 ```js
 import i18next from 'i18next';
-import sprintf from 'i18next-sprintf-postProcessor';
+import sprintf from 'i18next-sprintf-postprocessor';
 
 i18next
   .use(sprintf)
@@ -47,10 +47,10 @@ i18next.t('key2', { postProcess: 'sprintf', sprintf: { users: [{name: 'Dolly'}, 
 
 ```js
 import i18next from 'i18next';
-import sprintf from 'i18next-sprintf-postProcessor';
+import sprintf from 'i18next-sprintf-postprocessor';
 
 i18next.init({
-  overloadTranslationOptionHandler: sprintf.overloadTranslationOptionHandler
+  overloadTranslationOptionHandler: sprintf.translationOptionOverloadHandler
 });
 
 // given loaded resources
