@@ -50,7 +50,7 @@ import i18next from 'i18next';
 import sprintf from 'i18next-sprintf-postprocessor';
 
 i18next.init({
-  overloadTranslationOptionHandler: sprintf.translationOptionOverloadHandler
+  overloadTranslationOptionHandler: sprintf.overloadTranslationOptionHandler
 });
 
 // given loaded resources

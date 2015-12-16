@@ -16,7 +16,7 @@ export default {
     return value;
   },
 
-  translationOptionOverloadHandler(args) {
+  overloadTranslationOptionHandler(args) {
     let values = [];
 
     for (var i = 1; i < args.length; i++) {
