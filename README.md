@@ -14,6 +14,9 @@ $ npm install i18next-sprintf-postprocessor
 $ bower install i18next-sprintf-postprocessor
 ```
 
+- If you don't use a module loader it will be added to window.i18nextSprintfPostProcessor
+
+
 Wiring up:
 
 ```js
