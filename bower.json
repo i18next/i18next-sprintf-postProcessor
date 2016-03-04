@@ -1,6 +1,6 @@
 {
   "name": "i18next-sprintf-postprocessor",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "main": "./bin/index.js",
   "dependencies": {},
   "ignore": [

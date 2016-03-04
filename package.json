@@ -1,8 +1,8 @@
 {
   "name": "i18next-sprintf-postprocessor",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "backend layer for i18next using browsers xhr",
-  "main": "./bin/index.js",
+  "main": "./lib/index.js",
   "keywords": [
     "i18next",
     "i18next-postProcessor",
