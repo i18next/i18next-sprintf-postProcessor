@@ -1,4 +1,4 @@
-import {sprintf, vsprintf} from 'sprintf-js';
+import {sprintf, vsprintf} from './sprintf';
 
 export default {
   name: 'sprintf',
