@@ -52,9 +52,11 @@ i18next.t('key2', { postProcess: 'sprintf', sprintf: { users: [{name: 'Dolly'}, 
 import i18next from 'i18next';
 import sprintf from 'i18next-sprintf-postprocessor';
 
-i18next.init({
-  overloadTranslationOptionHandler: sprintf.overloadTranslationOptionHandler
-});
+i18next
+  .use(sprintf)
+  .init({
+    overloadTranslationOptionHandler: sprintf.overloadTranslationOptionHandler
+  });
 
 // given loaded resources
 // translation: {
