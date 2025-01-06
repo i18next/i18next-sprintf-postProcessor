@@ -9,9 +9,6 @@ Source can be loaded via [npm](https://www.npmjs.com/package/i18next-sprintf-pos
 ```
 # npm package
 $ npm install i18next-sprintf-postprocessor
-
-# bower
-$ bower install i18next-sprintf-postprocessor
 ```
 
 - If you don't use a module loader it will be added to window.i18nextSprintfPostProcessor
