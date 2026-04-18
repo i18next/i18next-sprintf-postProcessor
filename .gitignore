@@ -19,3 +19,10 @@ coverage/**/*
 dist/**/*
 
 package-lock.json
+
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
