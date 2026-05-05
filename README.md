@@ -78,7 +78,7 @@ i18next.t('interpolationTest4', 0);
 <h3 align="center">Gold Sponsors</h3>
 
 <p align="center">
-  <a href="https://locize.com/" target="_blank">
+  <a href="https://www.locize.com/?utm_source=i18next_sprintf_postprocessor_readme&utm_medium=github&utm_campaign=readme" target="_blank">
     <img src="https://raw.githubusercontent.com/i18next/i18next/master/assets/locize_sponsor_240.gif" width="240px">
   </a>
 </p>
